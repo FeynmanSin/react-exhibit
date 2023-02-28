@@ -1,0 +1,30 @@
+#content {
+  background-color: #fff;
+  height: 100%;
+  display: flex;
+
+  .content__left {
+    background-color: aqua;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    .glass {
+      width: 100px;
+      height: 100px;
+      background-color: black;
+      position: absolute;
+      opacity: 0.2;
+    }
+  }
+  .content__main {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+  }
+  .content__right {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "login": [
+    {
+      "id": 13610237993,
+      "phone": "13610237993",
+      "password": "12345"
+    },
+    {
+      "id": 15768883247,
+      "phone": "15768883247",
+      "password": "12345"
+    }
+  ],
+  "pc-routers": [
+    {
+      "id": 1,
+      "data": [
+        {
+          "label": "功能组件",
+          "key": "multi_tool",
+          "children": [
+            {
+              "label": "拖拽自定义页面",
+              "key": "/multi_tool/DragPage"
+            },
+            {
+              "label": "聊天室",
+              "key": "/multi_tool/ChatPage"
+            },
+            {
+              "label": "TestPage",
+              "key": "/multi_tool/TestPage"
+            }
+          ]
+        },
+        {
+          "label": "模版组件",
+          "key": "template_module",
+          "children": [
+            {
+              "label": "表单模版",
+              "key": "/template_module/ListTemplatePage"
+            },
+            {
+              "label": "用户信息",
+              "key": "/template_module/UserDetailsPage"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "drag-position": [
+    {
+      "id": 1,
+      "data": [
+        "1",
+        "2",
+        "0"
+      ]
+    }
+  ]
+}
