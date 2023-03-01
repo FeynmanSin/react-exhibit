@@ -24,6 +24,7 @@ const BaseInput = (props, ref) => {
         placeholder={props.placeholder ? props.placeholder : '请输入'}
         onChange={props?.onChange}
         value={props?.value}
+        type={props.type || "input"}
       />
     </div>
 

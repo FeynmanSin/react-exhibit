@@ -63,15 +63,15 @@ const ChatPage = () => {
             chatRecord?.map(item => {
               return (
                 <div className="message__item" key={Math.random() * item.date}>
-                  <div>{item.date}</div>
-                  <div>{item.message}</div>
+                  <div className='message__time'>{item.date}</div>
+                  <div className='message__message'>{item.message}</div>
                 </div>
               )
             })
           }
 
         </div>
-        <BaseInput ref={inputRef} />
+        <BaseInput type="textarea" ref={inputRef} />
         <BaseButton text="发送" onClick={sendMessage} />
       </main>
     </>
